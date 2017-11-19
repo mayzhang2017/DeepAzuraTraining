@@ -199,4 +199,3 @@ if response.status_code == 202:
     print('Resource group: ' + resourcegroup_name + ' deleted successfully.')
 else:
     print('Error deleting resource group.')
-</PRE></BODY></HTML>
