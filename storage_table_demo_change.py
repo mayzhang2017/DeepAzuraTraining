@@ -123,7 +123,7 @@ cars.model = 'DD'
 cars.sizeofcup = 'L'
 cars.pricepercup = 3.99
 table_service.insert_entity('itemstable', cars)
-print('Created entry for Tim Hortons...n\')
+print('Created entry for Tim Hortons...')
 
 coffee = Entity()
 cars.PartitionKey = 'coffeeinventory'
