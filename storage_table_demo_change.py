@@ -1,9 +1,4 @@
-<!DOCTYPE HTML>
-<!DOCTYPE html PUBLIC "" ""><HTML><HEAD>
-<META http-equiv="Content-Type" 
-content="text/html; charset=windows-1252"></HEAD>
-<BODY>
-<PRE>import string,random,time,azurerm,json
+import string,random,time,azurerm,json
 from azure.storage.table import TableService, Entity
 
 # Define variables to handle Azure authentication
@@ -106,7 +101,7 @@ cars.year = '2017'
 cars.color = 'green'
 cars.price = 30000
 table_service.insert_entity('itemstable', cars)
-print('Created entry for Toyota...')
+print('Created entry for Toyota...n\')
 
 cars = Entity()
 cars.PartitionKey = 'cardealership'
@@ -128,7 +123,7 @@ cars.model = 'DD'
 cars.sizeofcup = 'L'
 cars.pricepercup = 3.99
 table_service.insert_entity('itemstable', cars)
-print('Created entry for Tim Hortons...')
+print('Created entry for Tim Hortons...n\')
 
 coffee = Entity()
 cars.PartitionKey = 'coffeeinventory'
