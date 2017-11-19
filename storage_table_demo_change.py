@@ -101,7 +101,7 @@ cars.year = '2017'
 cars.color = 'green'
 cars.price = 30000
 table_service.insert_entity('itemstable', cars)
-print('Created entry for Toyota...n\')
+print('Created entry for Toyota...')
 
 cars = Entity()
 cars.PartitionKey = 'cardealership'
