@@ -112,7 +112,7 @@ cars.year = '2017'
 cars.color = 'grey'
 cars.price = 30000
 table_service.insert_entity('itemstable', cars)
-print('Created entry for Honda...\n')
+print('Created entry for Honda...')
 
 # coffee
 coffee = Entity()
@@ -133,7 +133,7 @@ cars.model = 'DD'
 cars.sizeofcup = 'M'
 cars.pricepercup = 1.99
 table_service.insert_entity('itemstable', cars)
-print('Created entry for Tim Hortons...n\')
+print('Created entry for Tim Hortons...')
 
 
 # A partition key tracks how like-minded entries in the Table are created and queried.
@@ -147,7 +147,7 @@ clothing.sku = 'BLK203123'
 clothing.item = 'sweater'
 clothing.cost = 22.99
 table_service.insert_entity('itemstable', clothing)
-print('Created entry for a Sweater...\n')
+print('Created entry for a Sweater...')
 time.sleep(1)
 
 clothing = Entity()
@@ -157,7 +157,7 @@ clothing.sku = 'BLK203143'
 clothing.item = 'jeans'
 clothing.cost = 55.99
 table_service.insert_entity('itemstable', clothing)
-print('Created entry for Jeans...\n')
+print('Created entry for Jeans...')
 time.sleep(1)
 
 ###
