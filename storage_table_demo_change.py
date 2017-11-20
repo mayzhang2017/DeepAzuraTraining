@@ -116,22 +116,22 @@ print('Created entry for Honda...')
 
 # coffee
 coffee = Entity()
-cars.PartitionKey = 'coffeeinventory'
-cars.RowKey = '003'
-cars.brand = 'Tim Hortons'
-cars.model = 'DD'
-cars.sizeofcup = 'L'
-cars.pricepercup = 3.99
+coffee.PartitionKey = 'coffeeinventory'
+coffee.RowKey = '003'
+coffee.brand = 'Tim Hortons'
+coffee.model = 'DD'
+coffee.sizeofcup = 'L'
+coffee.pricepercup = 3.99
 table_service.insert_entity('itemstable', coffee)
 print('Created entry for Tim Hortons...')
 
 coffee = Entity()
-cars.PartitionKey = 'coffeeinventory'
-cars.RowKey = '004'
-cars.brand = 'Tim Hortons'
-cars.model = 'DD'
-cars.sizeofcup = 'M'
-cars.pricepercup = 1.99
+coffee.PartitionKey = 'coffeeinventory'
+coffee.RowKey = '004'
+coffee.brand = 'Tim Hortons'
+coffee.model = 'DD'
+coffee.sizeofcup = 'M'
+coffee.pricepercup = 1.99
 table_service.insert_entity('itemstable', coffee)
 print('Created entry for Tim Hortons...')
 
