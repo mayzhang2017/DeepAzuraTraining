@@ -119,7 +119,7 @@ coffee = Entity()
 coffee.PartitionKey = 'coffeeinventory'
 coffee.RowKey = '003'
 coffee.brand = 'Tim Hortons'
-coffee.model = 'DD'
+coffee.flavor = 'DD'
 coffee.sizeofcup = 'L'
 coffee.pricepercup = 3.99
 table_service.insert_entity('itemstable', coffee)
@@ -129,7 +129,7 @@ coffee = Entity()
 coffee.PartitionKey = 'coffeeinventory'
 coffee.RowKey = '004'
 coffee.brand = 'Tim Hortons'
-coffee.model = 'DD'
+coffee.flavor = 'Black'
 coffee.sizeofcup = 'M'
 coffee.pricepercup = 1.99
 table_service.insert_entity('itemstable', coffee)
