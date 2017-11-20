@@ -122,7 +122,7 @@ cars.brand = 'Tim Hortons'
 cars.model = 'DD'
 cars.sizeofcup = 'L'
 cars.pricepercup = 3.99
-table_service.insert_entity('itemstable', cars)
+table_service.insert_entity('itemstable', coffee)
 print('Created entry for Tim Hortons...')
 
 coffee = Entity()
@@ -132,7 +132,7 @@ cars.brand = 'Tim Hortons'
 cars.model = 'DD'
 cars.sizeofcup = 'M'
 cars.pricepercup = 1.99
-table_service.insert_entity('itemstable', cars)
+table_service.insert_entity('itemstable', coffee)
 print('Created entry for Tim Hortons...')
 
 
