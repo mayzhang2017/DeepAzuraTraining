@@ -117,7 +117,7 @@ print('Created entry for Honda...')
 # coffee
 coffee = Entity()
 cars.PartitionKey = 'coffeeinventory'
-cars.RowKey = '001'
+cars.RowKey = '003'
 cars.brand = 'Tim Hortons'
 cars.model = 'DD'
 cars.sizeofcup = 'L'
@@ -127,7 +127,7 @@ print('Created entry for Tim Hortons...')
 
 coffee = Entity()
 cars.PartitionKey = 'coffeeinventory'
-cars.RowKey = '002'
+cars.RowKey = '004'
 cars.brand = 'Tim Hortons'
 cars.model = 'DD'
 cars.sizeofcup = 'M'
